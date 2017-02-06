@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    tools:context="com.reto_final_android.MainActivity">
+
+
+    <EditText
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:hint="Id"
+        android:ems="10"
+        android:id="@+id/text_id"
+        android:elegantTextHeight="false"
+        />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/text_pass"
+        android:elegantTextHeight="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:textColor="#fff"
+        android:background="#3c0"
+        />
+
+
+</LinearLayout>
